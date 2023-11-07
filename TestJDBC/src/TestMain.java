@@ -14,7 +14,7 @@ public class TestMain {
      System.out.println("Database connected....");
     
      String sql = "insert into product(name,price,brand) values('Adidas Shoes,2300,'Adidas')";
-     
+      
      Statement st = con.createStatement();
     
      int x = st.executeUpdate(sql);
